@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html{
+	font-size: 100px;
+}
+html,body,.wrap{
+	width:100%;
+	height:100%;
+}
+.wrap{
+	font-size: .14rem;
+}
+p{
+	height:40px;
+	line-height: 40px;
+	clear:both;
+	border-bottom: 1px solid #ccc; 
+	padding-left: 10px;
+	position: relative;
+}
+label{
+	position: absolute;
+	top:10;
+	right: 10px;
+}
+label input{
+	display: none;
+}
+label .tru{
+	width: 10px;
+	height: 20px;
+	border: 1px solid #ccc;
+	display: block;
+	border-radius: 2px;
+	margin-top: 10px;
+}
+label input:checked  + .tru{
+	background: #06c1ae;
+}
+.tru::after{
+	content:"";
+	display: block;
+	width:12px;
+	height:6px;
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	transform: rotate(-45deg);
+	margin: 3px 0 0 3px; 
+}
+
+h2{
+	font-size:.14rem;
+	height:40px;
+	line-height: 40px;
+	padding-left: 10px;
+
+}
+ul{
+	padding:0 10px;
+}
+ul li{
+	float: left;
+	padding:3px 5px;
+	border: 1px #06c1ae solid;
+	color: #06c1ae;
+	margin: 4px 5px;
+}
+#other{
+	clear: both;
+}
+.once{
+	clear:both;
+	height: 40px;
+	line-height: 40px;
+	background: #ccc;
+	color:#06c1ae;
+}
+h3{
+	float: left;
+	padding-left: 10px;
+}
+span{
+	float: right;
+	padding-right: 10px;
+}
+.bg{
+	background: #06c1ae;
+	color: #fff;
+}
